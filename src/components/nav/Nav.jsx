@@ -17,7 +17,7 @@ export const Nav = () => {
 
     return (
         <header>
-            <MDBNavbar expand='lg' light bgColor='white'>
+            {/* <MDBNavbar expand='lg' light bgColor='white'>
                 <MDBContainer fluid>
                     <MDBNavbarToggler
                         aria-controls='navbarExample01'
@@ -45,7 +45,7 @@ export const Nav = () => {
                         </MDBNavbarNav>
                     </MDBCollapse>
                 </MDBContainer>
-            </MDBNavbar>
+            </MDBNavbar> */}
 
             <div
                 id='intro-example'
@@ -55,28 +55,43 @@ export const Nav = () => {
                 <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
                     <div className='d-flex justify-content-center align-items-center h-100'>
                         <div className='text-white'>
-                            <h1 className='mb-3'>Learn Bootstrap 5 with MDB</h1>
-                            <h5 className='mb-4'>Best &amp; free guide of responsive web design</h5>
+                            <h1 className='mb-3'>Benjamin Tyler Sanders</h1>
+                            <h5 className='mb-4'>August 12th, 1987 - May 29th, 2023</h5>
                             <MDBBtn
                                 className="m-2"
                                 tag="a"
                                 outline
                                 size="lg"
-                                rel="nofollow"
-                                target="_blank"
-                                href='https://www.youtube.com/watch?v=c9B4TPnak1A'
+                                href='/home'
                             >
-                                Start tutorial
+                                Home
                             </MDBBtn>
                             <MDBBtn
                                 className="m-2"
                                 tag="a"
                                 outline
                                 size="lg"
-                                target="_blank"
-                                href='https://mdbootstrap.com/docs/standard/'
+                                href='/memories'
                             >
-                                Download MDB UI KIT
+                                Memories
+                            </MDBBtn>
+                            <MDBBtn
+                                className="m-2"
+                                tag="a"
+                                outline
+                                size="lg"
+                                href='/gallery'
+                            >
+                                Gallery
+                            </MDBBtn>
+                            <MDBBtn
+                                className="m-2"
+                                tag="a"
+                                outline
+                                size="lg"
+                                href='/donate'
+                            >
+                                Donate
                             </MDBBtn>
                         </div>
                     </div>

@@ -9,14 +9,11 @@ import { Nav } from './components/nav/Nav';
 export const App = () => {
     return (
         <>
+            <Nav />
             <Routes>
                 <Route
                     path='/'
                     element={<Home />}
-                />
-                <Route
-                    path='/nav'
-                    element={<Nav />}
                 />
                 <Route
                     path='/donate'
