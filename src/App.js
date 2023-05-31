@@ -4,6 +4,7 @@ import { Donate } from './components/donate/Donate';
 import { Gallery } from './components/gallery/Gallery';
 import { Home } from './components/home/Home';
 import { Memories } from './components/memories/Memories';
+import { Nav } from './components/nav/Nav';
 
 export const App = () => {
     return (
@@ -12,6 +13,10 @@ export const App = () => {
                 <Route
                     path='/'
                     element={<Home />}
+                />
+                <Route
+                    path='/nav'
+                    element={<Nav />}
                 />
                 <Route
                     path='/donate'
