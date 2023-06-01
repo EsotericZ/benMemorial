@@ -3,13 +3,8 @@ const { Memories } = require('../models');
 const memoryData = [
     {
         name: 'CJ Sanders',
-        memory: 'He was my brother',
-        createdAt: '2023-05-31',
-    },
-    {
-        name: 'Michael Sanders',
-        memory: 'He was my son',
-        createdAt: '2023-05-31',
+        memory: 'A great man with a gentle and caring heart. His girls were his world and had a passion for helping others. A true kind soul',
+        createdAt: '2023-06-01',
     },
 ];
 
