@@ -10,7 +10,9 @@
     "start": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
     "develop": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "node server/seeds/index.js"
+    "seed": "node server/seeds/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,8 @@
   "dependencies": {
     "concurrently": "^8.1.0",
     "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
