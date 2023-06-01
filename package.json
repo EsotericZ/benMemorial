@@ -7,7 +7,7 @@
     "build": "cd client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
-    "start": "node server/server.js",
+    "start": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
     "develop": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "node server/seeds/index.js"
