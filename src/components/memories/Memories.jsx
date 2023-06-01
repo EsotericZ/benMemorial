@@ -54,20 +54,18 @@ export const Memories = () => {
                 <h1>Loading</h1>
                 :
                 <>
-                    <div className="d-flex justify-content-center m-2">
-                        <h5>
-                            Please share your favorite memories here. All are welcome, we just ask that you remain kind and courtious of others. You are welcome to post anonymously. Thank you.
-                        </h5>
+                    <div className="d-flex justify-content-center text-center m-3">
+                        Please share your favorite memories here. All are welcome, we just ask that you remain kind and courtious of others. You are welcome to post anonymously. Thank you.
                     </div>
 
-                    <form>
+                    <form className='m-2'>
                         <MDBInputGroup className='mb-2' noBorder>
                             <input className='form-control' type='text' placeholder='Name' name='name' onChange={handleAdd} />
                         </MDBInputGroup>
                         <MDBInputGroup>
-                            <MDBTextArea label='Memory' id='textArea' rows={4} name='memory' onChange={handleAdd} />
+                            <MDBTextArea className='bg-light' label='Memory' id='textArea' rows={4} name='memory' onChange={handleAdd} />
                         </MDBInputGroup>
-                        <MDBBtn type='submit' className='m-2' onClick={handleSave}>
+                        <MDBBtn type='submit' className='m-2 bg-success' onClick={handleSave}>
                             Post
                         </MDBBtn>
                     </form>

@@ -6,7 +6,7 @@ export const Donate = () => {
             <div className="d-flex justify-content-center mt-2">
                 <h1>Donations</h1>
             </div>
-            <div className="d-flex justify-content-center mt-2">
+            <div className="d-flex justify-content-center text-center m-3">
                 In lieu of flowers, the family is asking all donations be made to The Oxford House of Kentucky
             </div>
             <div className="d-flex justify-content-center mt-2">
