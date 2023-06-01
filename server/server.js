@@ -3,6 +3,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 
+const sequelize = require('./config');
+const PORT = process.env.PORT || 3001;
+
 let routes = require('./routes/api/routes');
 
 app.use(
@@ -33,4 +36,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.use("/", routes);
-app.listen(3001);
+// app.listen(PORT);
+
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
+});
