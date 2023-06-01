@@ -6,6 +6,8 @@ import { Home } from './components/home/Home';
 import { Memories } from './components/memories/Memories';
 import { Nav } from './components/nav/Nav';
 
+document.body.style.backgroundColor = "#d2f2d4";
+
 export const App = () => {
     return (
         <>

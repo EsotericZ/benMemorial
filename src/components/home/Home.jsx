@@ -1,3 +1,5 @@
+import homepage from '../../images/homepage.jpg';
+
 export const Home = () => {
     return (
         <>
@@ -8,7 +10,7 @@ export const Home = () => {
                 Visitiation will be held Sunday, June 4th, 2023 at the Clark Legacy Center from 5-7pm. All are welcome to come share stories, be with family and celebrate the life of Ben.
             </div>
             <div className="d-flex justify-content-center text-center m-2">
-                The Funeral will be held Sunday, June 4th, 2023 at the Clark Legacy Center at 7pm
+                The Funeral will be held Sunday, June 4th, 2023 at the Clark Legacy Center at 7pm, Pastor Bill Rieser will be officiating
             </div>
             <div className="d-flex justify-content-center text-center m-2">
                 601 E Brannon Rd, Nicholasville, KY 40356
@@ -16,10 +18,28 @@ export const Home = () => {
 
             <div className="d-flex justify-content-center mt-2">
                 <img
-                    src='https://lh3.googleusercontent.com/WcNixBE2ZWLcnljDV5pPjLTZYr1tOIYI2UCwfvCpxqqKr6cHZbImkd8a400WWeIYLZSxZ0mP1OhwzJDm0ufMJQiiQYBaN0QGcoM6IoFMxsRcRg3JFm2HqUf8k1Iub993x3s1LQ4xWh-pLvkf9hkHbkgXjGDBHgI5GBvnoYe_U8AfM9EMKU0g84pJ3waPUhQLjil5JiWxtnkFPLaDDMo-Zz_YNHPIaHOKbzUQg2OXQ5YYNK9jq-o3xriyIHQqL779NQEIIyZEZbgEFZwp2HEUAIB2T0m1g2-PXgrlN9sU7fM6q62QjtrGjalwb-IBBvSMji4Z6kDb4XytbMN977X3AaASywhnnnCxkk63JN5vCxsPqYX4uF9jSmDHhr8SPJjWFoOm1F_ndaa-GAeoeYGYRgyDKq9YU3CALwICuUEDmYTBNcbIaMqnnFmdWSRR0JnxdCr25wJVL3Qi_N3QMMLEzTU2WO40ShVmjF82mHnpQtwGuhhFfgfRnMCD83K3Lph33qCMx2BwuuARxjKYiZzC4kMDHrjpls37ftAGiCw_cI-gQG3uRyxtvFl9Q_Lg0N14N3vhvFHudhJiesDOlBF-nIhFoHOiMfQzx4iFx7H3wUy-Y0sWWR_fzKkSh-yilyFuv19rCQM9hYQFO9tJjxMI5xTvabXgUp72O2GVqi1A137IqCQWfooHfxctdaTdshuuBSxzl7tdZRMBC3SJV975n7FCXMfN2NKVD5wb-b2YqpiX7kJqvhOKwxPbPMGPyuiNnj98zMMBkYqDcQ4py8qrMZBNNhkQPr5rKbe4tfTrTf2v8kWXIu7zjcV07_EXICOhmv3as0s4dFCFMCQ6zZ5rzsFbVF8_sjTpLmS5KZX_qNxdJXM2_QqyKyUrcj95PCLCWPC6PyZkIAL0jizU09VYNOPntf37Ra3Boqn-b9-Iqd60TW2nMA=w692-h923-s-no?authuser=0'
+                    src={homepage}
                     className='img-fluid rounded shadow-2-strong w-50'
                     alt='benhome'
                 />
+            </div>
+            <div className="d-flex justify-content-center mt-4">
+                <h1>About Ben</h1>
+            </div>
+            <div className="d-flex justify-content-center text-center m-3">
+                Benjamin “Ben” Tyler Sanders, 35, passed away Sunday, May 28, 2023. He was born on August 12, 1987, in Colorado Springs, CO to Laura Grier Sanders and Michael David Sanders. Ben had worked as a recovery coach for StepWorks in Nicholasville. 
+            </div>
+            <div className="d-flex justify-content-center text-center m-3">
+                Ben’s passion was helping others, especially those who struggled with addiction.  He was actively involved with Oxford House and currently served as State Chair. He recently completed his peer mentor program and had become certified.  He was proud of the work he did to help others combat addiction and believed wholeheartedly in their motto:  “People can change.  Lives can change.  Hope can be restored.”
+            </div>
+            <div className="d-flex justify-content-center text-center m-3">
+                In addition to his parents, Ben is survived by his daughters, Layla Lee and Khloe Grace; brothers, Christopher Sanders, Joshua and wife Ashley Sanders; niece, Rylee Rochelle, and grandparents, Janice and Ben Maybriar, in addition to a host of aunts, uncles and cousins.
+            </div>
+            <div className="d-flex justify-content-center text-center m-3">
+                In lieu of flowers, the family is requesting memorial contributions be made to Oxford House KY. It would be Ben’s and his family’s greatest wish to help those battling addiction. 
+            </div>
+            <div className="d-flex justify-content-center text-center m-3">
+                <a href='/donate'>Donate here</a>
             </div>
         </>
     );

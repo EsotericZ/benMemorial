@@ -35,7 +35,7 @@ export const Gallery = () => {
                 </h1>
             </div>
             
-            <MDBCarousel showControls fade dealy={1000} >
+            <MDBCarousel showControls fade dealy={1500} >
                 {girls.map((item) => {
                     return (
                         <div className="d-flex justify-content-center w-50">
